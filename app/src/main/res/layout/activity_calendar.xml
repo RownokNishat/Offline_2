@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calendar">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="Show"
+        android:src="@drawable/img1"
+        android:id="@+id/img1"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img2"
+        android:visibility="gone"
+        android:onClick="Show"
+        android:id="@+id/img2"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="Show"
+        android:src="@drawable/img3"
+        android:visibility="gone"
+        android:id="@+id/img3"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="Show"
+        android:src="@drawable/img4"
+        android:visibility="gone"
+        android:id="@+id/img4"/>
+
+</FrameLayout>
